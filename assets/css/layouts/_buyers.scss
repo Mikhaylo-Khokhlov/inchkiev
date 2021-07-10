@@ -1,0 +1,455 @@
+.buyers__col {
+  max-width: 470px;
+  min-height: 1024px;
+
+  background: linear-gradient(63.53deg, #2d8550 16.62%, #5e6ec2 83.38%);
+  opacity: 0.7;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 300px;
+  }
+}
+
+.buyers__link {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 50px;
+  top: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #ffffff;
+  border-radius: 100px;
+  fill: #ff5864;
+
+  &:hover,
+  &:focus {
+    background: #ff5864;
+    fill: #ffffff;
+  }
+}
+
+.buyers__icon {
+  width: 34px;
+  height: 32px;
+}
+
+.buyers__link--position {
+  left: 158px;
+}
+
+.block {
+  position: absolute;
+  left: 40px;
+  top: 430px;
+}
+
+.counter__text {
+  font-size: 36px;
+  line-height: 1.22;
+
+  margin-bottom: 30px;
+
+  color: #ffffff;
+}
+
+.counter {
+  width: 190px;
+  height: 80px;
+
+  display: flex;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 50px rgba(131, 42, 64, 0.4);
+  border-radius: 40px;
+}
+
+.counter__icon {
+  width: 60px;
+  height: 60px;
+
+  margin-top: 10px;
+  margin-left: 10px;
+
+  fill: #a1a1a1;
+  opacity: 0.5;
+  border-radius: 100px;
+}
+
+.counter__flex {
+  display: flex;
+
+  margin-bottom: 40px;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: block;
+  }
+}
+
+.counter__flex--margin {
+  margin-right: 20px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+}
+
+.block__flex {
+  display: flex;
+  justify-content: center;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: block;
+  }
+}
+
+.counter__icon--smile {
+  fill: #fd98bb;
+  border-radius: 100px;
+}
+
+.counter__block {
+  position: absolute;
+  width: 470px;
+  height: 134px;
+  top: 890px;
+
+  background: #ffffff;
+  opacity: 0.15;
+}
+
+.counter__number {
+  position: absolute;
+  top: 905px;
+  left: 50px;
+  font-size: 36px;
+  line-height: 1.22;
+  font-weight: 400;
+
+  color: #ffffff;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    font-size: 20px;
+  }
+}
+
+.btn__list {
+  position: absolute;
+  left: 500px;
+  top: 870px;
+
+  display: flex;
+  :not(:last-child) {
+    margin-right: 40px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    display: block;
+    top: 725px;
+    left: 385px;
+    :not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.btn__drug {
+  width: 280px;
+  height: 90px;
+
+  font-family: Avenir Next Cyr;
+  font-size: 28px;
+  line-height: 1.21;
+  font-weight: 700;
+
+  border-radius: 100px;
+  border: unset;
+  cursor: pointer;
+
+  color: #ffffff;
+  background: linear-gradient(266.19deg, #8049c7 0%, #ca57fd 100%);
+
+  &:hover,
+  &:focus {
+    background: linear-gradient(266.19deg, #ca57fd 0%, #8049c7 1000%);
+  }
+}
+
+.btn__drug--color {
+  background: linear-gradient(266.19deg, #169ae4 0%, #0cc4fa 100%);
+  &:hover,
+  &:focus {
+    background: linear-gradient(266.19deg, #0cc4fa 0%, #169ae4 1000%);
+  }
+}
+
+.btn__drug--bg {
+  background: linear-gradient(
+    90deg,
+    #ffd748 0.02%,
+    rgba(195, 199, 11, 0.96) 99.97%,
+    #cac6ab 99.98%,
+    #d3e9e1 99.99%
+  );
+  &:hover,
+  &:focus {
+    background: linear-gradient(
+      90deg,
+      #d3e9e1 99.99%,
+      #cac6ab 99.98%,
+      rgba(195, 199, 11, 0.96) 99.97%,
+      #ffd748 0.02%
+    );
+  }
+}
+
+.card {
+  max-width: 540px;
+  max-height: 590px;
+
+  position: absolute;
+  left: 47.92%;
+  right: 14.58%;
+  top: 12.7%;
+  bottom: 29.69%;
+  overflow: hidden;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 40px rgba(127, 127, 127, 0.4);
+  border-radius: 40px;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-height: 530px;
+  }
+}
+
+.card__img {
+  min-width: 540px;
+  min-height: 350px;
+
+  background: linear-gradient(
+      63.53deg,
+      rgba(45, 133, 80, 0.2) 16.62%,
+      rgba(92, 109, 193, 0.2) 83.38%
+    ),
+    url(~//static/smart1.jpg);
+  background-size: cover;
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background: linear-gradient(
+        63.53deg,
+        rgba(45, 133, 80, 0.2) 16.62%,
+        rgba(92, 109, 193, 0.2) 83.38%
+      ),
+      url(~//static/smart1@2x.jpg);
+    background-size: cover;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    min-width: 300px;
+    min-height: 250px;
+  }
+}
+
+.card__bg {
+  background: linear-gradient(
+      63.53deg,
+      rgba(45, 133, 80, 0.2) 16.62%,
+      rgba(92, 109, 193, 0.2) 83.38%
+    ),
+    url(~//static/poor.jpg);
+  background-size: cover;
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background: linear-gradient(
+        63.53deg,
+        rgba(45, 133, 80, 0.2) 16.62%,
+        rgba(92, 109, 193, 0.2) 83.38%
+      ),
+      url(~//static/poor@2x.jpg);
+    background-size: cover;
+  }
+}
+
+.card__content {
+  padding-top: 25px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 80px;
+}
+
+.card__name {
+  font-size: 32px;
+  line-height: 1.22;
+  font-weight: 700;
+
+  color: #8e9ad5;
+}
+
+.card__value {
+  font-size: 16px;
+  line-height: 1.23;
+  font-weight: 400;
+}
+
+.active__bg {
+  background: linear-gradient(
+      63.53deg,
+      rgba(45, 133, 80, 0.2) 16.62%,
+      rgba(92, 109, 193, 0.2) 83.38%
+    ),
+    url(~//static/smart2.jpg);
+  background-size: cover;
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background: linear-gradient(
+        63.53deg,
+        rgba(45, 133, 80, 0.2) 16.62%,
+        rgba(92, 109, 193, 0.2) 83.38%
+      ),
+      url(~//static/smart2@2x.jpg);
+    background-size: cover;
+  }
+}
+
+.bg__card {
+  background: linear-gradient(
+      63.53deg,
+      rgba(45, 133, 80, 0.2) 16.62%,
+      rgba(92, 109, 193, 0.2) 83.38%
+    ),
+    url(~//static/smart3.jpg);
+  background-size: cover;
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background: linear-gradient(
+        63.53deg,
+        rgba(45, 133, 80, 0.2) 16.62%,
+        rgba(92, 109, 193, 0.2) 83.38%
+      ),
+      url(~//static/smart3@2x.jpg);
+    background-size: cover;
+  }
+}
+
+.gradient__bg {
+  background: linear-gradient(
+      63.53deg,
+      rgba(45, 133, 80, 0.2) 16.62%,
+      rgba(92, 109, 193, 0.2) 83.38%
+    ),
+    url(~//static/smart4.jpg);
+  background-size: cover;
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background: linear-gradient(
+        63.53deg,
+        rgba(45, 133, 80, 0.2) 16.62%,
+        rgba(92, 109, 193, 0.2) 83.38%
+      ),
+      url(~//static/smart4@2x.jpg);
+    background-size: cover;
+  }
+}
+
+.counter__num {
+  font-size: 48px;
+  line-height: 59px;
+  font-weight: 700;
+
+  color: #424242;
+}
+
+.counter__bl {
+  width: 100px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.queue {
+  position: absolute;
+  top: 955px;
+  left: 200px;
+
+  font-size: 36px;
+  line-height: 1.22;
+  color: #fff;
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    left: 135px;
+
+    font-size: 20px;
+  }
+}
+
+.queue__text {
+  font-weight: 400;
+}
+
+.toLeft {
+  animation-duration: 0.3s;
+  animation-name: slideleft;
+}
+
+.toUp {
+  animation-duration: 0.3s;
+  animation-name: slideup;
+}
+
+.toRight {
+  animation-duration: 0.3s;
+  animation-name: slideright;
+}
+@keyframes slideleft {
+  from {
+    left: 47.92%;
+  }
+
+  to {
+    left: -100%;
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes slideright {
+  from {
+    left: 47.92%;
+  }
+
+  to {
+    left: 100%;
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes slideup {
+  from {
+    top: 12.7%;
+  }
+
+  to {
+    top: -100%;
+    transform: rotate(-45deg);
+  }
+}

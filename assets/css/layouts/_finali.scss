@@ -1,0 +1,144 @@
+.finali__bg {
+  width: 975px;
+  height: 717px;
+
+  position: absolute;
+  left: 730px;
+  top: 0px;
+
+  background: url(~//static/finali.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background: url(~//static/finali@2x.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    left: 100px;
+    opacity: 0.2;
+  }
+}
+
+.finaly__link {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 50px;
+  top: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(63.53deg, #2d8550 16.62%, #5e6ec2 83.38%);
+  border-radius: 100px;
+  fill: #fff;
+
+  &:hover,
+  &:focus {
+    background: linear-gradient(63.53deg, #5e6ec2 16.62%, #2d8550 83.38%);
+    fill: #424242;
+  }
+}
+
+.finali__icon {
+  width: 34px;
+  height: 32px;
+}
+
+.finaly__block {
+  position: absolute;
+  top: 260px;
+  left: 130px;
+}
+
+.finali__flex {
+  display: flex;
+  :not(:last-child) {
+    margin-right: 20px;
+  }
+  margin-bottom: 90px;
+}
+
+.finali__count {
+  font-size: 48px;
+  line-height: 1.23;
+  font-weight: 400;
+
+  text-align: center;
+
+  color: #424242;
+}
+
+.finali__text {
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 700;
+
+  padding-top: 10px;
+
+  text-align: center;
+
+  color: #424242;
+}
+
+.finaly__block--size {
+  width: 180px;
+}
+
+.finali__description {
+  width: 600px;
+}
+
+.finali__heading {
+  margin-bottom: 20px;
+
+  font-size: 32px;
+  line-height: 1.09;
+  letter-spacing: 0.02em;
+
+  color: #8e9ad5;
+}
+
+.finali__heading--text {
+  font-weight: 400;
+}
+
+.description__text {
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 400;
+
+  color: #424242;
+}
+
+.finali__btn {
+  width: 270px;
+  height: 60px;
+
+  position: absolute;
+  top: 880px;
+  left: 130px;
+
+  background: linear-gradient(90deg, #d9d9d9 0%, #a1a1a1 100%);
+  border-radius: 100px;
+  border: unset;
+  cursor: pointer;
+
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 700;
+
+  color: #ffffff;
+
+  &:hover,
+  &:focus {
+    background: linear-gradient(90deg, #a1a1a1 0%, #d9d9d9 100%);
+  }
+}
